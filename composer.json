@@ -1,0 +1,38 @@
+{
+    "name": "exonos/mailapi",
+    "description": "Transactional email as a microservice for Laravel",
+    "keywords": [
+        "exonos",
+        "exonhos",
+        "Mail",
+        "mail api",
+        "api email"
+    ],
+    "homepage": "https://github.com/exonos/mailapi",
+    "type": "library",
+    "require": {
+        "php": "^8.1",
+        "laravel/framework": "^9.0 || ^10.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Exonos\\Mailapi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Abdiel Hernandez",
+            "email": "hh.abdiel@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Exonos\\Mailapi\\MailapiServiceProvider"
+            ],
+            "aliases": []
+        }
+    },
+    "minimum-stability": "dev"
+}
